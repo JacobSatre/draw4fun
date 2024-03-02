@@ -1,0 +1,5 @@
+client/node_modules/*
+server/node_modules/*
+client/.svelte-kit/*
+server/dist/*
+server/src/build-client/*

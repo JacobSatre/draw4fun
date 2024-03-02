@@ -21,7 +21,7 @@ const unless = function (path: any, middleware: any) {
 app.get("/test", (params) => {
   const { res } = params;
   state++;
-  res?.send(process.env.URL);
+  res?.send(String(state));
 });
 
 // let SvelteKit handle everything else, including serving prerendered pages and static assets
